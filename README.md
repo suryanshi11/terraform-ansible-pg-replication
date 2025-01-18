@@ -84,4 +84,11 @@ This guide explains how to automate the setup of a PostgreSQL primary-replica ar
 > curl -X POST http://127.0.0.1:8000/configure-database
 - Verify PostgreSQL is installed and replication is set up on the created instances.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Troubleshooting
+
+- **Terraform Issues:** Ensure AWS credentials and permissions are valid.
+- **Ansible Errors:** Verify SSH access to instances and ensure required dependencies are installed.
+
 
